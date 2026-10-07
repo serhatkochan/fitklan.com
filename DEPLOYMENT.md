@@ -1,10 +1,13 @@
 # Yayın bilgileri
 
 - Üretim adresi: https://fitklan.com/
+- Herkese açık tanıtım sayfası deposu: https://github.com/serhatkochan/fitklan.com
 - Vercel projesi: `fit-klan`
 - Vercel takım adı: `serhatkochans-projects`
 - İlk yayın: 7 Ekim 2026
 - İlk üretim deployment: `dpl_BEUoXiroSwJ7JFs1Abd5ZQtMerg1`
+
+Bu yayın yalnızca Fit Klan'ın statik tanıtım sayfasına aittir. Uygulamanın gelecekteki frontend ve backend depoları bu yayından ayrı tutulacaktır.
 
 ## Alan adı
 

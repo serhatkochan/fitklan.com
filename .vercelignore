@@ -1,10 +1,9 @@
-dist/
+.git/
 .vercel/
 node_modules/
-.env
-.env.*
-.env*
+dist/
 artifacts/
+.env*
 *.log
 *.pem
 *.key

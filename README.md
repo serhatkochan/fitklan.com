@@ -1,6 +1,8 @@
-# Fit Klan
+# Fit Klan — Tanıtım Sayfası
 
-Türkçe, geliştirme aşamasındaki Fit Klan platformunun tanıtım sayfası.
+[fitklan.com](https://fitklan.com/) için herkese açık tanıtım sayfası deposu: [serhatkochan/fitklan.com](https://github.com/serhatkochan/fitklan.com).
+
+Fit Klan, geliştirme aşamasındaki bir hoca–öğrenci platformudur. Bu depo yalnızca statik tanıtım sayfasını, görsellerini ve yayın yapılandırmasını içerir. Uygulamanın frontend ve backend kodları ileride ayrı depolarda geliştirilecektir; bu depolar henüz oluşturulmamıştır.
 
 ## Sayfa kapsamı
 
@@ -22,4 +24,6 @@ Statik HTML, CSS ve JavaScript kullanılır. Kayıt formu, veritabanı veya kiş
 
 Vercel aynı build komutunu kullanır. Kaynak belgeleri, yerel araçlar, `.vercel` ve ortam dosyaları genel çıktıya kopyalanmaz.
 
-Kimlik bilgileri kaynak kodda veya yapılandırma dosyalarında tutulmaz.
+Kimlik bilgileri kaynak kodda veya yapılandırma dosyalarında tutulmaz. `.env` dosyaları, yerel `.vercel` bağlantısı, build çıktısı ve doğrulama kayıtları Git'e eklenmez. Depo herkese açık olduğu için Cloudflare, Vercel veya GitHub tokenlarını dosyalara ve commit geçmişine eklemeyin.
+
+`assets/fonts/` içindeki fontların lisans metinleri font dosyalarıyla birlikte saklanır.
