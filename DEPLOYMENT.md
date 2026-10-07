@@ -19,7 +19,13 @@ Cloudflare yetkili DNS sağlayıcısıdır. Nameserver kayıtları Cloudflare'da
 | fitklan.com | A | 64.29.17.1 | DNS only |
 | www.fitklan.com | CNAME | ae8aa5a48599d71f.vercel-dns-017.com | DNS only |
 
-HTTPS sertifikasını Vercel yönetir. HTTP istekleri HTTPS'e, `www.fitklan.com` ise 308 ile ana adrese yönlenir. E-posta/MX hizmeti yapılandırılmamıştır; sayfanın iletişim bağlantısı mevcut kurucu e-posta adresini açar.
+HTTPS sertifikasını Vercel yönetir. HTTP istekleri HTTPS'e, `www.fitklan.com` ise 308 ile ana adrese yönlenir. Sayfanın iletişim bağlantısı mevcut kurucu e-posta adresini açar.
+
+## E-posta yönlendirmesi
+
+8 Ekim 2026'da Cloudflare Email Routing etkinleştirildi. `info@fitklan.com` adresine gelen postalar doğrulanmış kurucu posta kutusuna yönlendirilir. Cloudflare ayarları `enabled: true`, `status: ready`; adresin forwarding kuralı `enabled: true` olarak doğrulandı.
+
+E-posta için Cloudflare'ın üç MX kaydı ve SPF TXT kaydı otomatik eklendi. Bu kayıtlar Cloudflare tarafından yönetilir. Vercel'e ait web sitesi A ve CNAME hedefleri aynı kaldı; kurulumdan sonra HTTPS ana sayfa HTTP 200 döndürdü. Gelen postanın gerçek teslimatı ayrıca kontrol edilmelidir.
 
 ## Doğrulama
 
