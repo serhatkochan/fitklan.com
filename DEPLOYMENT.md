@@ -29,6 +29,8 @@ Gerçek Edge tarayıcısında 360, 390, 768, 1024 ve 1440 px genişliklerde yata
 
 ## Sonraki yayın
 
-Yerel build: `npm run build`. Vercel projesi statik `dist/` çıktısını yayınlar. CLI ile üretim yayını önce `--prod --skip-domain` ile hazırlanabilir; doğrulamadan sonra aynı deployment `vercel promote` ile alan adına atanır.
+8 Ekim 2026'da mevcut `fit-klan` Vercel projesi, `serhatkochan/fitklan.com` GitHub deposuna bağlandı. Üretim dalı `main` olarak doğrulandı. Bu dala gönderilen commit'ler Vercel üzerinden otomatik yayınlanır.
+
+Yerel build: `npm run build`. Vercel projesi statik `dist/` çıktısını yayınlar. Gerekirse CLI ile üretim yayını önce `--prod --skip-domain` ile hazırlanabilir; doğrulamadan sonra aynı deployment `vercel promote` ile alan adına atanır.
 
 Cloudflare kimlik bilgileri projede veya belgelerde saklanmaz. Yeni DNS hedefleri gerektiğinde Vercel'den yeniden alınmalıdır.

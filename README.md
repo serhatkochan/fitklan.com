@@ -13,6 +13,7 @@ Statik HTML, CSS ve JavaScript kullanılır. Kayıt formu, veritabanı veya kiş
 ## Yayın ve doğrulama
 
 - Vercel projesi: `fit-klan`
+- GitHub `main` dalına gönderilen değişiklikler Vercel'de otomatik yayınlanır.
 - Ana alan adı: `https://fitklan.com/`
 - `www.fitklan.com`, ana alan adına yönlendirilir.
 - DNS, Cloudflare üzerinden yönetilir; DNS hedefleri Vercel projesinin alan adı kontrolünden alınır.
@@ -27,3 +28,5 @@ Vercel aynı build komutunu kullanır. Kaynak belgeleri, yerel araçlar, `.verce
 Kimlik bilgileri kaynak kodda veya yapılandırma dosyalarında tutulmaz. `.env` dosyaları, yerel `.vercel` bağlantısı, build çıktısı ve doğrulama kayıtları Git'e eklenmez. Depo herkese açık olduğu için Cloudflare, Vercel veya GitHub tokenlarını dosyalara ve commit geçmişine eklemeyin.
 
 `assets/fonts/` içindeki fontların lisans metinleri font dosyalarıyla birlikte saklanır.
+
+Logo dosyaları, renkleri ve tasarım süreci [BRAND.md](BRAND.md) içinde açıklanır.

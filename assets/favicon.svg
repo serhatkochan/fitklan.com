@@ -1,1 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="8" fill="#c4f650"/><path fill="#171b17" d="M8 9h12v5h-7v4h6v5h-6v8H8V9Zm14 0h5v9l5-9h6l-7 11 7 11h-6l-5-9v9h-5V9Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><rect width="96" height="96" rx="22" fill="#171b17"/><g fill="#c4f650" transform="translate(6 6) scale(.875)"><path id="klan" transform="translate(48 21) scale(.91) translate(-48 -21)" d="M46 5.2a4 4 0 0 1 4 0l31.4 18.1a3 3 0 0 1 0 5.2L67.9 36.1a3 3 0 0 1-3 0L49.5 27.2a3 3 0 0 0-3 0L31.1 36.1a3 3 0 0 1-3 0L14.6 28.5a3 3 0 0 1 0-5.2Z"/>
+  <use href="#klan" transform="rotate(120 48 48)"/>
+  <use href="#klan" transform="rotate(240 48 48)"/></g></svg>
