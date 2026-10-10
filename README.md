@@ -2,13 +2,27 @@
 
 [fitklan.com](https://fitklan.com/) için herkese açık tanıtım sayfası deposu: [serhatkochan/fitklan.com](https://github.com/serhatkochan/fitklan.com).
 
-Fit Klan, geliştirme aşamasındaki bir hoca–öğrenci platformudur. Bu depo yalnızca statik tanıtım sayfasını, görsellerini ve yayın yapılandırmasını içerir. Uygulamanın frontend ve backend kodları ileride ayrı depolarda geliştirilecektir; bu depolar henüz oluşturulmamıştır.
+Fitklan'ın AI destekli antrenman, koçluk, beslenme ve spor topluluğu deneyimini anlatır. Bu depo yalnızca statik tanıtım sayfasını, görsellerini ve yayın yapılandırmasını içerir. Uygulamanın frontend ve backend kodları bu depoda bulunmaz.
 
 ## Sayfa kapsamı
 
-Hocaların program, geri bildirim ve öğrenci takibini; öğrencilerin antrenman ve kapalı topluluk deneyimini anlatır. Örnek ürün ekranları gerçek bir kullanıcı hesabı veya çalışan fitness uygulaması olarak sunulmaz. Erken erişim iletişimi, doğrulanmış kurucu e-posta adresine `mailto:` bağlantısı üzerinden gerçekleşir.
+Yeni ürün metnindeki “Hedefin kişisel. Yolculuğun birlikte.” yaklaşımı; AI ile kendi başına, hocayla ve klanla ilerleme yolları üzerinden sunulur. İletişim bağlantıları `business@fitklan.com` adresini açar.
 
-Statik HTML, CSS ve JavaScript kullanılır. Kayıt formu, veritabanı veya kişisel veri toplayan izleme kodu bulunmaz.
+Ürün ekranlarında açıkça örnek veriler kullanılır. Antrenman süresi seçimi, antrenmanı tamamlama/haftayı sıfırlama, öğün miktarı düzenleme, örnek sesli set taslağı ve onayı, hoca görevleri ve klan etkinliği etkileşimlidir. Bunlar tarayıcı belleğinde çalışan demolardır; sayfa yenilenince sıfırlanır. Gerçek AI, ses tanıma, video analizi veya beslenme hesabı çağrısı yapılmaz; mikrofon/kamera açılmaz, hesap ya da gerçek katılım kaydı oluşturulmaz.
+
+## İstatistiklerin kaynağı
+
+Kurucu 11 Ekim 2026'da Ekim 2026 dönemine ait aşağıdaki platform rakamlarını paylaştı. Landing page'de bu değerler “Paylaşılan platform istatistikleri · Ekim 2026” açıklamasıyla kullanılır; bağımsız analiz/veritabanı doğrulaması yapılmadı. Demo ekranlarındaki kişisel kayıtlar bu platform rakamlarının parçası değildir.
+
+| Ölçüm | Paylaşılan değer |
+| --- | --- |
+| Toplam kayıtlı kullanıcı | 12.450 |
+| Son 30 günde aktif kullanıcı | 8.200 |
+| Platformdaki hoca | 145 |
+| Tamamlanan antrenman | 342.000+ |
+| Aktif klan | 48 |
+
+Statik HTML, CSS ve JavaScript kullanılır. Demo miktar alanları hiçbir sunucuya gönderilmez. Kullanıcı kaydı, veritabanı veya kişisel veri toplayan izleme kodu bulunmaz.
 
 ## Yayın ve doğrulama
 
