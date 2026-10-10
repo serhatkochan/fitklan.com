@@ -10,6 +10,12 @@ Yeni ürün metnindeki “Hedefin kişisel. Yolculuğun birlikte.” yaklaşım�
 
 Ürün ekranlarında açıkça örnek veriler kullanılır. Antrenman süresi seçimi, antrenmanı tamamlama/haftayı sıfırlama, öğün miktarı düzenleme, örnek sesli set taslağı ve onayı, hoca görevleri ve klan etkinliği etkileşimlidir. Bunlar tarayıcı belleğinde çalışan demolardır; sayfa yenilenince sıfırlanır. Gerçek AI, ses tanıma, video analizi veya beslenme hesabı çağrısı yapılmaz; mikrofon/kamera açılmaz, hesap ya da gerçek katılım kaydı oluşturulmaz.
 
+## Diller
+
+Türkçe sürüm `/`, İngilizce sürüm `/en/` adresindedir. Üst menüdeki TR/EN bağlantıları iki statik sayfa arasında geçiş yapar; başlık, içerik, erişilebilirlik metinleri, demo mesajları, sayı biçimleri ve e-posta konusu seçilen dile uygundur. Dil seçimi tarayıcının yerel depolamasında hatırlanır; bu izinli değilse bağlantılar çalışmaya devam eder. Dil değişikliği sayfayı yeniden açar ve örnek demo akışını sıfırlar. `/?lang=tr` bağlantısı hatırlanan İngilizce tercihinden bağımsız Türkçe sürümü açar. İngilizce bağlantısı doğrudan paylaşılabilir.
+
+Her iki sürüm JavaScript kapalıyken kendi dilinde okunur. Canonical, hreflang ve sitemap bilgileri iki dili tanımlar. Uygulama kodu bu depoda değildir; dil seçimi yalnızca tanıtım sayfasını kapsar.
+
 ## İstatistiklerin kaynağı
 
 Kurucu 11 Ekim 2026'da Ekim 2026 dönemine ait aşağıdaki platform rakamlarını paylaştı. Landing page'de bu değerler “Paylaşılan platform istatistikleri · Ekim 2026” açıklamasıyla kullanılır; bağımsız analiz/veritabanı doğrulaması yapılmadı. Demo ekranlarındaki kişisel kayıtlar bu platform rakamlarının parçası değildir.
